@@ -55,12 +55,12 @@ MBATS is based on Docker containers. Running your Infrastructure is as easy as r
  ```docker-compose up -d --build```  
 First run would take some time as all the Docker base images need to be downloaded.  
 Once its is running, you can access the following components from the webaddress
-    * Jupyter Notebook:http://localhost:8888
-    * Airflow: http://localhost:8080
-    * MLflow: http://localhost:5500
-    * PgAdmin: http://localhost:1234
-    * Superset: http://localhost:8088
-    * Minio: http://localhost:9000
+    * Jupyter Notebook:http://192.168.43.10:8888
+    * Airflow: http://192.168.43.10:8080
+    * MLflow: http://192.168.43.10:5500
+    * PgAdmin: http://192.168.43.10:1234
+    * Superset: http://192.168.43.10:8088
+    * Minio: http://192.168.43.10:9000
 
 4. Run the script to setup up the database schema   
 ```.\starter_script.bat```
